@@ -1,5 +1,5 @@
 # Sudoku with JavaFX
-Uses:
+Requirements:
 * JDK 15.0.1 or JRE 1.8
 * JavaFX 8.0.271
 
