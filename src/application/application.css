@@ -1,0 +1,51 @@
+.base_pane {
+	 -fx-background-color: #f4f4f4;
+}
+
+.button_newboard_hard {
+	-fx-background-color: #FB6962;
+}
+
+.button_newboard_hard:hover { 
+	 -fx-background-color: #ff5047;
+}
+
+.button_newboard_mid {
+	-fx-background-color: #A8E4EF;
+}
+
+.button_newboard_mid:hover { 
+	 -fx-background-color: #68ddf2;
+}
+
+.button_newboard_easy {
+	-fx-background-color: #79DE79;
+}
+
+.button_newboard_easy:hover { 
+	 -fx-background-color: #1ee31e;
+}
+
+.button_numbered {
+	 -fx-background-color: #bdc3c7;
+}
+
+.button_numbered:hover { 
+	 -fx-background-color: #d2d6d9;
+}
+
+.button_check {
+	 -fx-background-color: #d5d9db;
+}
+
+.button_check:hover { 
+	 -fx-background-color: #dee1e3;
+}
+
+.button_solve {
+	 -fx-background-color: #d5d9db;
+}
+
+.button_solve:hover { 
+	 -fx-background-color: #dee1e3;
+}
