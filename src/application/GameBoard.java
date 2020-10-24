@@ -8,9 +8,6 @@ public class GameBoard {
 
 	public GameBoard() {
 		setInitial();
-		solution = copy2DArray(initial);
-		player = new int[9][9];
-		Solver.solve(solution);
 	}
 
 	public int[][] getSolution() {
@@ -23,6 +20,9 @@ public class GameBoard {
 	
 	public void setInitial() {
 		initial = generateBoard();
+		solution = copy2DArray(initial);
+		clearPlayer();
+		Solver.solve(solution);
 	}
 
 	public int[][] getPlayer() {
@@ -31,6 +31,10 @@ public class GameBoard {
 	
 	public void clearPlayer() {
 		player = new int[9][9];
+	}
+	
+	public void clearSolution() {
+		solution = new int[9][9];
 	}
 	
 	public void setK(int Difficulty) {
